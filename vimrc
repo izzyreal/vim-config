@@ -42,6 +42,8 @@ if empty(glob('~/.local/share/vim/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+let g:vimspector_enable_mappings = 'HUMAN'
+
 so ~/.vim/plugins.vim
 
 so ~/.vim/config/tabs.vim

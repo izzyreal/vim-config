@@ -1,15 +1,6 @@
 call plug#begin('~/.local/share/vim/plugged')
-"Plug 'airblade/vim-gitgutter'
-"Plug 'editorconfig/editorconfig-vim'
-"Plug 'itchyny/lightline.vim'
-"Plug 'junegunn/fzf'
-"Plug 'junegunn/fzf.vim'
-"Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdtree'
-"Plug 'terryma/vim-multiple-cursors'
-"Plug 'tpope/vim-eunuch'
-"Plug 'tpope/vim-surround'
-"Plug 'w0rp/ale'
 Plug 'cdelledonne/vim-cmake'
 Plug 'richq/vim-cmake-completion'
+Plug 'puremourning/vimspector'
 call plug#end()
