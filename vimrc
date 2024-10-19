@@ -42,6 +42,7 @@ if empty(glob('~/.local/share/vim/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" Enable nice vimspector keyboard mappings
 let g:vimspector_enable_mappings = 'HUMAN'
 
 so ~/.vim/plugins.vim
