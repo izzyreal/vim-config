@@ -27,7 +27,7 @@ elseif exists('$TEMP')
 endif
 
 " Store NetRW history file in custom location
-let g:netrw_histfile = expand('~/.local/share/vim/.netrwhist')
+let g:netrw_home = expand('~/.local/share/vim')
 
 " Store Vim session data (command history, marks, etc.) in custom location
 set viminfofile=~/.local/share/vim/viminfo
