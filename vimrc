@@ -9,6 +9,7 @@ set cindent
 set shiftwidth=4
 set tabstop=4
 set expandtab
+set backspace=eol,start
 
 " Custom swap file location. Note that vim does not create this directory for
 " us, and it needs to already exist.
